@@ -12,4 +12,7 @@ A website for showcasing ratings of Netflix movies and shows.
 - ~~Create Description~~
 - ~~Add placeholder images for movie covers~~
 - ~~Create a button~~
-- Make covers clickable
+- ~~Make covers clickable~~
+- ~~Add a grey background for the content~~
+- ~~Add a movie title under the cover~~
+- Add a mock imdb rating on top of the movie cover
