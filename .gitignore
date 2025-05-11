@@ -1,0 +1,14 @@
+# Ignore node_modules (for JavaScript projects)
+node_modules/
+
+# Ignore all .log files
+*.log
+
+# Ignore .env files (for sensitive information like API keys)
+.env
+
+# Ignore build/ directory
+build/
+
+# Ignore all .DS_Store files (on macOS)
+.DS_Store
