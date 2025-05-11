@@ -7,7 +7,7 @@ A website for showcasing ratings of Netflix movies and shows.
 - app.py with FLASK -> create /catalog endpoint
 - should return JSON   
 
-## HTML FrontEnd To do:
+## FrontEnd To do:
 - ~~Create title~~
 - ~~Create Description~~
 - ~~Add placeholder images for movie covers~~
@@ -26,3 +26,7 @@ A website for showcasing ratings of Netflix movies and shows.
 
 - ~~Create a subtle cover pop and dimming effect when hovering over~~
 - ~~Restyle IMflixDb. Make the IM and DB yellow~~
+
+- ### Figure out how to add new content from a json dynamically
+
+- ### Figure out how to add the website to netflify
