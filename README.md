@@ -15,4 +15,9 @@ A website for showcasing ratings of Netflix movies and shows.
 - ~~Make covers clickable~~
 - ~~Add a grey background for the content~~
 - ~~Add a movie title under the cover~~
-- Add a mock imdb rating on top of the movie cover
+- ~~Add a mock imdb rating on top of the movie cover~~
+- ~~Add more content to check for any bugs~~
+- Add white border for cover
+- Create a filter bar inside and on top of the content column
+- Create a sublte hover effect when hovering of a cover
+- Restyle IMflixDb make the IM and DB yellow

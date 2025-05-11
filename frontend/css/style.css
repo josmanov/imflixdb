@@ -45,6 +45,11 @@ p
     padding: 20px;
     margin: 0 10px;
 }
+.image-container
+{
+    position: relative;
+    width: 100%;
+}
 .column img
 {
     width: 100%;
@@ -58,4 +63,17 @@ p
     text-align: center;
     font-size: 1rem;
     margin-top: 10px;
+}
+.rating
+{
+    position: absolute;
+    top: 1px;
+    left: 85%;
+    transform: translateX(-50%);
+    color: rgb(234, 255, 2);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
