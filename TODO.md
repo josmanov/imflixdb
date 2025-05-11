@@ -19,7 +19,10 @@ A website for showcasing ratings of Netflix movies and shows.
 - ~~Add more content to check for any bugs~~
 - ~~Add white border for cover~~
 - ### Create a filter bar for filtering content 
-    - (fix huge size, positioning and functionality)
+    - ~~(fix huge size, positioning and functionality)~~
+    - (fix genre dropdown colors)
+    - ~~(make nav bar narrower)~~
+    - (change genre drop down to be vertical for scrolling)
 
 - ~~Create a subtle cover pop and dimming effect when hovering over~~
-- ~~Restyle IMflixDb make the IM and DB yellow~~
+- ~~Restyle IMflixDb. Make the IM and DB yellow~~

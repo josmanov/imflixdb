@@ -24,9 +24,17 @@ p
 }
 .navbar
 {
-    overflow: hidden;
-    background-color: #333;
+    display: flex;
+    background-color: #831010;
     font-family: Arial;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 .navbar a
 {
@@ -36,6 +44,18 @@ p
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-right: 1px solid #000000;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+.navbar a:last-child
+{
+    border-right: none;
+}
+.navbar a:hover
+{
+    background-color: #8f141488;
+    color: yellow;
+    transform: scale(1.05);
 }
 .dropdown
 {
@@ -57,14 +77,27 @@ p
 {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #000000;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
 .dropdown-content a:hover
 {
-    background-color: #ddd;
+    background-color: #292929;
 }
 .dropdown:hover .dropdown-content
 {
