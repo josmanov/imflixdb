@@ -1,145 +1,148 @@
 <!DOCTYPE html>
 <html>
 
-<Head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scae=1.0">
-    <Link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/javascript.js"></script>
     <title>IMFLIXDB</title>
-</Head>
+</head>
 
 <body>
-
-    <h1>
-        <span class="yellow-text">IM</span>FLIX<span class="yellow-text">DB</span>
-    </h1>
-    <p> A website for showing ratings of netflix movies and shows.</p>
-    <div class="navbar">
-        <a href="#">Popular</a>
-        <a href="#">Highest Rating</a>
-        <a href="#">Highest Rating</a>
-        <div class="dropdown">
-            <button class="dropbtn">Genre
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Action</a>
-                <a href="#">Thriller</a>
-                <a href="#">Drama</a>
+    <div class="wrapper">
+        <h1>
+            <span class="yellow-text">IM</span><span class="flix">FLIX</span><span class="yellow-text">DB</span>
+        </h1>
+        <div class="navbar">
+            <a href="#">Most Popular</a>
+            <a href="#">Highest Rating</a>
+            <a href="#">Newest</a>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Genre</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                    <a href="#">Action</a>
+                    <a href="#">Thriller</a>
+                    <a href="#">Drama</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class ="row">
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                <img src="../../movie_covers/movie_cover1.jpg" alt="Movie Cover 1">
-                <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Batman</p>
-            </a>
-        </div>
-        <div class="column">
-             <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover2.jpg" alt="Movie Cover 2">
-                    <div class="rating">8.5</div>
-                </div>
-            <p class="movie-title">Batman</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover3.jpg" alt="Movie Cover 3">
+        <p>
+            <span class="movie-text">Movies</span>
+        <p>
+        <div class ="row">
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                    <img src="../../movie_covers/movie_cover1.jpg" alt="Movie Cover 1">
                     <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
+                    </div>
+                <p class="movie-title">Batman</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover2.jpg" alt="Movie Cover 2">
+                        <div class="rating">8.5</div>
+                    </div>
+                <p class="movie-title">Batman</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover3.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover4.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover5.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover6.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover7.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover8.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover9.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover10.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover11.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.netflix.com" target="_blank">
+                    <div class="image-container">
+                        <img src="../../movie_covers/movie_cover12.jpg" alt="Movie Cover 3">
+                        <div class="rating">8.3</div>
+                    </div>
+                <p class="movie-title">Star Wars</p>
+                </a>
+            </div>
         </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover4.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover5.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover6.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover7.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover8.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover9.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover10.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover11.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.netflix.com" target="_blank">
-                <div class="image-container">
-                    <img src="../../movie_covers/movie_cover12.jpg" alt="Movie Cover 3">
-                    <div class="rating">8.3</div>
-                </div>
-            <p class="movie-title">Star Wars</p>
-            </a>
-        </div>
-    </div>
 
+        </div>
 </body>
 
 </html>

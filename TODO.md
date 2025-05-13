@@ -20,13 +20,22 @@ A website for showcasing ratings of Netflix movies and shows.
 - ~~Add white border for cover~~
 - ### Create a filter bar for filtering content 
     - ~~(fix huge size, positioning and functionality)~~
-    - (fix genre dropdown colors)
+    - ~~(fix genre dropdown colors)~~
     - ~~(make nav bar narrower)~~
-    - (change genre drop down to be vertical for scrolling)
+    - ~~(change genre drop down to show all possible genres)~~
+    - (fix when genre clicked, box wont dissapear after clicking away)
+    - (check if any bugs are found when more genres are added)
 
 - ~~Create a subtle cover pop and dimming effect when hovering over~~
 - ~~Restyle IMflixDb. Make the IM and DB yellow~~
+- ~~Show movies horizontally only~~
+- Add a horizontal scroll button
+- ~~add Bold "Movies" text above the movie selection~~
+- 
 
-- ### Figure out how to add new content from a json dynamically
+- ### Split style.css into different .css files
+
+- ### Figure out how to add new content from a json data file dynamically
 
 - ### Figure out how to add the website to netflify
+
