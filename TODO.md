@@ -38,9 +38,17 @@ A website for showcasing ratings of Netflix movies and shows.
 - Hide the scrollbar
 - ### Add a search bar right side of the nav bar
 - Restyle genre dropdown with gradient color
+- Add a transition for dropdown
 - ~~Margin left and right side of covers so theres space for scroll buttons~~
 - ~~Shift covers closer to eachother~~
 - Lower the opacity of every other cover besides the hovered cover
+- add scrollLeft button to index.html and css
+- Adjust  x position of "Shows-title"
+- Adjust size of scroll button
+- Change icon of scroll button
+- Make icon become visible when hovering over covers
+- Adjust title and ratings position using width attribute
+- Add a transition to opacity on the scroll button
 
 - ~~### Split style.css into different .css files~~
 
