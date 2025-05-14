@@ -40,16 +40,17 @@ p
 .rating
 {
     position: absolute;
-    bottom: -80px;
+    top: -34px;
     left: 50%;
     transform: translateX(-50%);
     color: rgb(0, 0, 0);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'helvetica';
     font-weight: bold;
     background-color: #deb522;
     padding: 5px 5px;
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     transition: transform 0.3s ease;
     z-index: 2;
 }
