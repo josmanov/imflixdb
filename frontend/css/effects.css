@@ -22,6 +22,12 @@
     transition: opacity 0.4s ease, transform 0.4s ease, filter 0.4s ease,
 }
 
+.column img.dimmed
+{
+    opacity: 0.4;
+    transition: opacity 0.4 ease;
+}
+
 .navbar a:hover
 {
     color: gold;

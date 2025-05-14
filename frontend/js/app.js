@@ -60,17 +60,16 @@ function displayShows(shows)
 	document.getElementById("shows-container").innerHTML = showHTML;
 }
 
-function scrollLeft() 
+function scrollBtnRight(containerId) 
 {
-	document.getElementById('movies-container').scrollBy({ left: -100, behavior: 'smooth' });
+	document.getElementById(containerId).scrollBy({ left: 1372, behavior: 'smooth' });
 	console.log("Does scrollRight Button Work?");
-
 }
 
-function scrollRight() 
+function scrollBtnLeft(containerId) 
 {
-	document.getElementById('movies-container').scrollBy({ left: 1372, behavior: 'smooth' });
-	console.log("Does scrollRight Button Work?");
+	document.getElementById(containerId).scrollBy({ left: -1372, behavior: 'smooth' });
+	console.log("Does scrollLeft Button Work?");
 }
 
 window.onload = loadMedia;

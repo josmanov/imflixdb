@@ -26,16 +26,6 @@
     border-right: none;
 }
 
-.dropbtn
-{
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.2s ease;
-	background: black
-}
-
 #myInput
 {
     box-sizing: border-box;
@@ -65,13 +55,15 @@
 {
     display: none;
     position: absolute;
-    background-color: #831010;
+    background-image: linear-gradient(#db000077, black);
     width: 150px;
     overflow: visible;
     z-index: 1;
     left: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s ease;
+
 }
 
 .dropdown-content a
@@ -83,5 +75,4 @@
     text-align: left;
     width: 100%;
     box-sizing: border-box;
-    transition: background-color 0.3s;
 }

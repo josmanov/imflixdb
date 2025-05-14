@@ -126,9 +126,33 @@ p
     align-items: center;
     justify-content: center;
     right: 0%;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-btn-left
+{
+    position: absolute;
+    margin-left: 10px;  /* some space from the row */
+    transform: translateY(-16.7%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 134px 22px;
+    font-size: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 5;
+    height: auto;  /* Let it size naturally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0%;
+    transition: background-color 0.3s ease;
 }
 
 .scroll-btn:hover
 {
-    background-color: rgba(0, 0, 0, 0.85)
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: background-color 0.3s ease;
 }
