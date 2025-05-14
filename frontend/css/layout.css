@@ -1,0 +1,27 @@
+.container
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row
+{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    padding: 30px;
+    background-color: rgba(57, 57, 56, 0.286);
+
+}
+
+.column
+{
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.image-container
+{
+    position: relative;
+    width: 100%;
+}

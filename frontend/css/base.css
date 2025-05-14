@@ -1,0 +1,17 @@
+html
+{
+    background-image: url("../images/background.jpg");
+    background-size: cover;            /* Make it cover the entire area */
+    background-repeat: no-repeat;      /* Prevent repeating */
+    background-position: center;       /* Center the image */
+}
+
+body, html, .wrapper
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    background-blend-mode: darken;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}

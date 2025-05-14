@@ -1,53 +1,94 @@
 {
-    "movies": 
-    [
+    "movies": [
         {
             "id": 1,
-            "title": "Harry Potter",
-            "rating": 8.3,
-            "image": "../movie_covers/movie_cover1.jpg",
-            "genre": ["Fantasy", "Adventure"],
-            "year": 2001,
-            "link": ""
+            "title": "A Minecraft Movie",
+            "rating": 6.3,
+            "image": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/950387"
         },
         {
-            "id": 1,
-            "title": "Harry Potter",
-            "rating": 8.3,
-            "image": "../movie_covers/movie_cover2.jpg",
-            "genre": ["Fantasy", "Adventure"],
-            "year": 2001,
-            "link": ""
+            "id": 2,
+            "title": "Final Destination Bloodlines",
+            "rating": 7.3,
+            "image": "https://image.tmdb.org/t/p/w500/cAoktVUBhGyULRoxV6mZ2LB3x7I.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/574475"
         },
         {
-            "id": 1,
-            "title": "Harry Potter",
-            "rating": 8.3,
-            "image": "../movie_covers/movie_cover3.jpg",
-            "genre": ["Fantasy", "Adventure"],
-            "year": 2001,
-            "link": ""
+            "id": 3,
+            "title": "Thunderbolts*",
+            "rating": 7.5,
+            "image": "https://image.tmdb.org/t/p/w500/m9EtP1Yrzv6v7dMaC9mRaGhd1um.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/986056"
         },
         {
-            "id": 1,
-            "title": "Harry Potter",
-            "rating": 8.3,
-            "image": "../movie_covers/movie_cover4.jpg",
-            "genre": ["Fantasy", "Adventure"],
-            "year": 2001,
-            "link": ""
-        }
-    ],
-    "shows": 
-    [
+            "id": 4,
+            "title": "Snow White",
+            "rating": 4.4,
+            "image": "https://image.tmdb.org/t/p/w500/oLxWocqheC8XbXbxqJ3x422j9PW.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/447273"
+        },
         {
-            "id": 1,
-            "title": "Breaking Bad",
-            "rating": 9.3,
-            "image": "../show_covers/breaking_bad.jpg",
-            "genre": ["Drama", "Adventure"],
-            "year": 2013,
-            "link": "https://breakingbad.com"
+            "id": 5,
+            "title": "Warfare",
+            "rating": 7.1,
+            "image": "https://image.tmdb.org/t/p/w500/j8tqBXwH2PxBPzbtO19BTF9Ukbf.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1241436"
+        },
+        {
+            "id": 6,
+            "title": "Last Bullet",
+            "rating": 6.9,
+            "image": "https://image.tmdb.org/t/p/w500/qycPITRqXgPai7zj1gKffjCdSB5.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1144430"
+        },
+        {
+            "id": 7,
+            "title": "Nonnas",
+            "rating": 6.7,
+            "image": "https://image.tmdb.org/t/p/w500/vE15XYl5QyCdMKjJIb33iE7SwYf.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1151039"
+        },
+        {
+            "id": 8,
+            "title": "Sinners",
+            "rating": 7.6,
+            "image": "https://image.tmdb.org/t/p/w500/jYfMTSiFFK7ffbY2lay4zyvTkEk.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1233413"
+        },
+        {
+            "id": 9,
+            "title": "Captain America: Brave New World",
+            "rating": 6.1,
+            "image": "https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/822119"
+        },
+        {
+            "id": 10,
+            "title": "Bad Influence",
+            "rating": 5.7,
+            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1323784"
         }
     ]
 }

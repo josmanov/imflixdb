@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/effects.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/navbar.css">
     <script type="text/javascript" src="../js/javascript.js"></script>
     <title>IMFLIXDB</title>
 </head>
@@ -13,20 +18,22 @@
     <div class="wrapper">
         <div class="navbar">
             <a href="#" class="site-title">
-                <span class="yellow-text">IM</span>
-                 <span class="flix">FLIX</span>
-                 <span class="yellow-text">DB</span>
+                <span class="yellow-text">IM</span><span class="flix">FLIX</span><span class="yellow-text">DB</span>
             </a>
             <a href="#">Most Popular</a>
             <a href="#">Highest Rating</a>
             <a href="#">Newest</a>
             <div class="dropdown">
-                <button class="dropbtn">Genre</button>
+                <a class="dropbtn">Genre</a>
                 <div id="myDropdown" class="dropdown-content">
                     <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
                     <a href="#">Action</a>
                     <a href="#">Thriller</a>
                     <a href="#">Drama</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Drama</a>
+
                 </div>
             </div>
         </div>
@@ -34,7 +41,6 @@
             <span class="movies-text">Movies</span>
         <p>
         <div id="movies-container" class ="row">
-
         </div>
         <p>
             <span class="shows-text">Shows</span>

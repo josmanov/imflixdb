@@ -1,0 +1,53 @@
+
+.image-container:hover .rating
+{
+    transform: translateX(-50%) scale(1.1);
+}
+
+.image-container:hover ~ .movie-title
+{
+    transform: scale(1.05);
+    color: gold;
+}
+
+.column img:hover
+{
+    transform: scale(1.09);
+    opacity: 1;
+    transform-origin: center center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    filter: drop-shadow(50px 0px 50px #000000a6);
+    transition: opacity 0.4s ease, transform 0.4s ease, filter 0.4s ease, border 0.4s ease;
+}
+
+.navbar a:hover
+{
+    color: gold;
+    transform: scale(1.05);
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+    background-color: #460c0c;
+    transform: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.show
+{
+    display: block;
+}
+
+a span 
+{
+  color: yellow; /* Apply yellow to <span> text */
+}
+
+#myInput:focus
+{
+    outline: 1px white;
+}

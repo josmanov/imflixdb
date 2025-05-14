@@ -1,0 +1,90 @@
+.navbar
+{
+    padding: 10px 50px 0px;
+    left: 30%;
+    display: flex;
+    background-color: #000000;
+    font-family: 'helvetica';
+    justify-content: left;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: visible;
+
+}
+.navbar a
+{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #000000;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+.navbar a:last-child
+{
+    border-right: none;
+}
+
+.dropbtn
+{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s ease;
+	background: black
+}
+
+#myInput
+{
+    box-sizing: border-box;
+    background-image: url('../images/searchicon.png');
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-color: rgba(6, 1, 1, 0.477);
+    font-size: 16px;
+    padding: 12px;
+    padding-left: 32px;
+    border: black;
+    border-bottom: 5px solid #000000;
+    width: 100%;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #831010;
+    width: 150px;
+    overflow: visible;
+    z-index: 1;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown-content a
+{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
