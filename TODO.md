@@ -23,15 +23,15 @@ A website for showcasing ratings of Netflix movies and shows.
     - ~~(fix genre dropdown colors)~~
     - ~~(make nav bar narrower)~~
     - ~~(change genre drop down to show all possible genres)~~
-    - (fix when genre clicked, box wont dissapear after clicking away)
-    - (check if any bugs are found when more genres are added)
+    - ~~(fix when genre clicked, box wont dissapear after clicking away)~~
+    - ~~(check if any bugs are found when more genres are added)~~
 
 - ~~Create a subtle cover pop and dimming effect when hovering over~~
 - ~~Restyle IMflixDb. Make the IM and DB yellow~~
 - ~~Show movies horizontally only~~
 - Add a horizontal scroll button
 - ~~add Bold "Movies" text above the movie selection~~
-- 
+- Fix
 
 - ### Split style.css into different .css files
 
