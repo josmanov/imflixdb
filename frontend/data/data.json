@@ -2,131 +2,183 @@
     "movies": [
         {
             "id": 1,
-            "title": "A Minecraft Movie",
-            "rating": 6.3,
-            "image": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
-            "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/950387"
-        },
-        {
-            "id": 2,
-            "title": "Final Destination Bloodlines",
-            "rating": 7.3,
-            "image": "https://image.tmdb.org/t/p/w500/cAoktVUBhGyULRoxV6mZ2LB3x7I.jpg",
-            "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/574475"
-        },
-        {
-            "id": 3,
-            "title": "Thunderbolts*",
-            "rating": 7.5,
-            "image": "https://image.tmdb.org/t/p/w500/m9EtP1Yrzv6v7dMaC9mRaGhd1um.jpg",
-            "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/986056"
-        },
-        {
-            "id": 4,
-            "title": "Snow White",
-            "rating": 4.4,
-            "image": "https://image.tmdb.org/t/p/w500/oLxWocqheC8XbXbxqJ3x422j9PW.jpg",
-            "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/447273"
-        },
-        {
-            "id": 5,
-            "title": "Warfare",
-            "rating": 7.1,
-            "image": "https://image.tmdb.org/t/p/w500/j8tqBXwH2PxBPzbtO19BTF9Ukbf.jpg",
-            "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/1241436"
-        },
-        {
-            "id": 6,
             "title": "Last Bullet",
-            "rating": 6.9,
+            "rating": 6.8,
             "image": "https://image.tmdb.org/t/p/w500/qycPITRqXgPai7zj1gKffjCdSB5.jpg",
             "genre": [],
             "year": 2025,
             "link": "https://www.themoviedb.org/movie/1144430"
         },
         {
-            "id": 7,
-            "title": "Nonnas",
+            "id": 2,
+            "title": "Exterritorial",
             "rating": 6.7,
+            "image": "https://image.tmdb.org/t/p/w500/jM2uqCZNKbiyStyzXOERpMqAbdx.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1233069"
+        },
+        {
+            "id": 3,
+            "title": "Bad Influence",
+            "rating": 5.6,
+            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1323784"
+        },
+        {
+            "id": 4,
+            "title": "Havoc",
+            "rating": 6.5,
+            "image": "https://image.tmdb.org/t/p/w500/r46leE6PSzLR3pnVzaxx5Q30yUF.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/668489"
+        },
+        {
+            "id": 5,
+            "title": "Jewel Thief: The Heist Begins",
+            "rating": 6.8,
+            "image": "https://image.tmdb.org/t/p/w500/eujLbO0kf1eqWC8XpHUJdtAVW2J.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1225915"
+        },
+        {
+            "id": 6,
+            "title": "Nonnas",
+            "rating": 6.8,
             "image": "https://image.tmdb.org/t/p/w500/vE15XYl5QyCdMKjJIb33iE7SwYf.jpg",
             "genre": [],
             "year": 2025,
             "link": "https://www.themoviedb.org/movie/1151039"
         },
         {
-            "id": 8,
-            "title": "Sinners",
-            "rating": 7.6,
-            "image": "https://image.tmdb.org/t/p/w500/jYfMTSiFFK7ffbY2lay4zyvTkEk.jpg",
+            "id": 7,
+            "title": "Karol G: Tomorrow Was Beautiful",
+            "rating": 8.2,
+            "image": "https://image.tmdb.org/t/p/w500/5aXoQYwaQ7JJVUWclHAEXJgiS2M.jpg",
             "genre": [],
             "year": 2025,
-            "link": "https://www.themoviedb.org/movie/1233413"
+            "link": "https://www.themoviedb.org/movie/1469239"
+        },
+        {
+            "id": 8,
+            "title": "Bullet Train Explosion",
+            "rating": 6.9,
+            "image": "https://image.tmdb.org/t/p/w500/jmzxlDBwgvRbpPJzNQwizyn9UEn.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1276073"
         },
         {
             "id": 9,
-            "title": "Captain America: Brave New World",
+            "title": "The Meg",
+            "rating": 6.2,
+            "image": "https://image.tmdb.org/t/p/w500/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg",
+            "genre": [],
+            "year": 2018,
+            "link": "https://www.themoviedb.org/movie/345940"
+        },
+        {
+            "id": 10,
+            "title": "Devara: Part 1",
+            "rating": 7.0,
+            "image": "https://image.tmdb.org/t/p/w500/1105WNYals12Va2f4F3VeBZdcWX.jpg",
+            "genre": [],
+            "year": 2024,
+            "link": "https://www.themoviedb.org/movie/811941"
+        },
+        {
+            "id": 11,
+            "title": "John Wick: Chapter 3 - Parabellum",
+            "rating": 7.4,
+            "image": "https://image.tmdb.org/t/p/w500/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+            "genre": [],
+            "year": 2019,
+            "link": "https://www.themoviedb.org/movie/458156"
+        },
+        {
+            "id": 12,
+            "title": "Ghost in the Shell",
             "rating": 6.1,
-            "image": "https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+            "image": "https://image.tmdb.org/t/p/w500/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
             "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/822119"
+            "year": 2017,
+            "link": "https://www.themoviedb.org/movie/315837"
         },
         {
-            "id": 10,
-            "title": "Bad Influence",
-            "rating": 5.7,
-            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "id": 13,
+            "title": "Basic Instinct",
+            "rating": 6.9,
+            "image": "https://image.tmdb.org/t/p/w500/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
             "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/1323784"
+            "year": 1992,
+            "link": "https://www.themoviedb.org/movie/402"
         },
         {
-            "id": 10,
-            "title": "Bad Influence",
-            "rating": 5.7,
-            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "id": 14,
+            "title": "Spider-Man: Across the Spider-Verse",
+            "rating": 8.3,
+            "image": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
             "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/1323784"
+            "year": 2023,
+            "link": "https://www.themoviedb.org/movie/569094"
         },
         {
-            "id": 10,
-            "title": "Bad Influence",
-            "rating": 5.7,
-            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "id": 15,
+            "title": "Amaran",
+            "rating": 7.4,
+            "image": "https://image.tmdb.org/t/p/w500/eCB06m1KUGilEOlIzb40nkQhVY0.jpg",
             "genre": [],
-            "year": 2025,
-            "link": "https://www.themoviedb.org/movie/1323784"
+            "year": 2024,
+            "link": "https://www.themoviedb.org/movie/927342"
         },
         {
-            "id": 10,
-            "title": "Bad Influence",
-            "rating": 5.7,
-            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "id": 16,
+            "title": "The Match",
+            "rating": 7.0,
+            "image": "https://image.tmdb.org/t/p/w500/8PmxsTT77KBlmT3OWyf3Q09yBOy.jpg",
             "genre": [],
             "year": 2025,
-            "link": "https://www.themoviedb.org/movie/1323784"
-        }
-    ],
-    "shows": [
+            "link": "https://www.themoviedb.org/movie/760497"
+        },
         {
-            "id": 10,
-            "title": "Bad Influence",
-            "rating": 5.7,
-            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "id": 17,
+            "title": "Mission: Impossible - Dead Reckoning Part One",
+            "rating": 7.5,
+            "image": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+            "genre": [],
+            "year": 2023,
+            "link": "https://www.themoviedb.org/movie/575264"
+        },
+        {
+            "id": 18,
+            "title": "Barbie",
+            "rating": 7.0,
+            "image": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+            "genre": [],
+            "year": 2023,
+            "link": "https://www.themoviedb.org/movie/346698"
+        },
+        {
+            "id": 19,
+            "title": "Counterattack",
+            "rating": 8.4,
+            "image": "https://image.tmdb.org/t/p/w500/38I76hGcFY6xB47pjm7pZwkfuAF.jpg",
             "genre": [],
             "year": 2025,
-            "link": "https://www.themoviedb.org/movie/1323784"
+            "link": "https://www.themoviedb.org/movie/1356039"
+        },
+        {
+            "id": 20,
+            "title": "Bird Box",
+            "rating": 6.8,
+            "image": "https://image.tmdb.org/t/p/w500/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg",
+            "genre": [],
+            "year": 2018,
+            "link": "https://www.themoviedb.org/movie/405774"
         }
     ]
 }

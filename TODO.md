@@ -1,11 +1,13 @@
 # IMFLIXDB
-A website for showcasing ratings of Netflix movies and shows.
+## A website for showcasing ratings of Netflix movies and shows.
 
 ## Backend To do:
+- create a script for fetching netflix shows available in finland
+- ### ~~change movie fetching script to fetch netflix shows available in finland~~
 - ~~Search for a netflix api and retreive data~~ of netflix shows and movies.
 - ~~Try and code a way to output the data into frontend.~~
-- app.py with FLASK -> create /catalog endpoint
-- should return JSON   
+- use imdb api instead of moviedb api for rating
+- fix movie request limit (20).
 
 ## FrontEnd To do:
 - ~~Create title~~
@@ -27,12 +29,10 @@ A website for showcasing ratings of Netflix movies and shows.
     - ~~(check if any bugs are found when more genres are added)~~
     - (create a script for showing filterized content based off of attributes)
 
-- ### change movie fetching script to fetch netflix shows available in finland
-- create a script for fetching netflix shows available in finland
 - ~~Create a subtle cover pop and dimming effect when hovering over~~
 - ~~Restyle IMflixDb. Make the IM and DB yellow~~
 - ~~Show movies horizontally only~~
-- ~~### Add a horizontal scroll button instead of mouse scroll wheel~~
+- ### ~~Add a horizontal scroll button instead of mouse scroll wheel~~
 - ~~add Bold "Movies" text above the movie selection~~
 - ~~Adjust movie cover sizes~~
 - ~~Hide the scrollbar~~
@@ -50,8 +50,8 @@ A website for showcasing ratings of Netflix movies and shows.
 - Adjust title and ratings position using width attribute
 - ~~Add a transition to opacity on the scroll button~~
 
-- ~~### Split style.css into different .css files~~
+- ### ~~Split style.css into different .css files~~
 
-- ~~### Figure out how to add new content from a json data file dynamically~~
+- ### ~~Figure out how to add new content from a json data file dynamically~~
 
 - ### Figure out how to add the website to netflify
