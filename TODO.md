@@ -43,13 +43,12 @@
 - ~~Shift covers closer to eachother~~
 - ### Lower the opacity of every other cover besides the hovered cover
 - ~~add scrollLeft button to index.html and css~~
-- Adjust x position of "Shows-title"
 - ~~Adjust size of scroll button~~
 - ~~Change icon of scroll button~~
 - Make icon become visible when hovering over covers
-- Adjust title and ratings position using width attribute
+- ~~Adjust title and ratings position~~
 - ~~Add a transition to opacity on the scroll button~~
-- Hide Left scroll button until right scroll is pressed and finished
+- Hide Left scroll button until right scroll button has finished scrolling
 
 - ### ~~Split style.css into different .css files~~
 

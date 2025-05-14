@@ -10,14 +10,18 @@
     width: 100%;
     overflow-x: auto;
     padding: 50px;
-
+    gap: 5px;
 }
 
 .column
 {
     flex-shrink: 0;
-    margin-right: -55px;
-    margin-left: 33.6px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 25px;
 }
 
 .image-container
