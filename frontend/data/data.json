@@ -89,6 +89,44 @@
             "genre": [],
             "year": 2025,
             "link": "https://www.themoviedb.org/movie/1323784"
+        },
+        {
+            "id": 10,
+            "title": "Bad Influence",
+            "rating": 5.7,
+            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1323784"
+        },
+        {
+            "id": 10,
+            "title": "Bad Influence",
+            "rating": 5.7,
+            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1323784"
+        },
+        {
+            "id": 10,
+            "title": "Bad Influence",
+            "rating": 5.7,
+            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1323784"
+        }
+    ],
+    "shows": [
+        {
+            "id": 10,
+            "title": "Bad Influence",
+            "rating": 5.7,
+            "image": "https://image.tmdb.org/t/p/w500/ghhooCOqQDqC6vhS1SVN2tCE0k8.jpg",
+            "genre": [],
+            "year": 2025,
+            "link": "https://www.themoviedb.org/movie/1323784"
         }
     ]
 }

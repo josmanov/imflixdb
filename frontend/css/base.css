@@ -1,3 +1,10 @@
+btml, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 html
 {
     background-image: url("../images/background.jpg");
@@ -8,7 +15,7 @@ html
 
 body, html, .wrapper
 {
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     width: 100%;
     max-width: 100%;

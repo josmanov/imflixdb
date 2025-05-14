@@ -5,16 +5,19 @@ function loadMedia()
 	.then(function(response)
 	{
 		return response.json();
-	})
+	}
+	)
 	.then(function(mediaData)
 	{
 		displayMovies(mediaData.movies);
 		displayShows(mediaData.shows);
-	})
+	}
+	)
 	.catch(function(error)
 	{
 		console.error('Cannot load data:', error);
-	});
+	}
+	);
 }
 
 function displayMovies(movies)
@@ -56,4 +59,18 @@ function displayShows(shows)
 	}
 	document.getElementById("shows-container").innerHTML = showHTML;
 }
+
+function scrollLeft() 
+{
+	document.getElementById('movies-container').scrollBy({ left: -100, behavior: 'smooth' });
+	console.log("Does scrollRight Button Work?");
+
+}
+
+function scrollRight() 
+{
+	document.getElementById('movies-container').scrollBy({ left: 1400, behavior: 'smooth' });
+	console.log("Does scrollRight Button Work?");
+}
+
 window.onload = loadMedia;

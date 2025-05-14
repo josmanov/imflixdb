@@ -9,15 +9,14 @@
     display: flex;
     width: 100%;
     overflow-x: auto;
-    padding: 30px;
-    background-color: rgba(57, 57, 56, 0.286);
+    padding: 50px;
 
 }
 
 .column
 {
     flex-shrink: 0;
-    margin-right: 15px;
+    margin-right: 5px;
 }
 
 .image-container

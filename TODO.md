@@ -32,11 +32,15 @@ A website for showcasing ratings of Netflix movies and shows.
 - ~~Create a subtle cover pop and dimming effect when hovering over~~
 - ~~Restyle IMflixDb. Make the IM and DB yellow~~
 - ~~Show movies horizontally only~~
-- ### Add a horizontal scroll button instead of mouse scroll wheel
+- ~~### Add a horizontal scroll button instead of mouse scroll wheel~~
 - ~~add Bold "Movies" text above the movie selection~~
 - ~~Adjust movie cover sizes~~
 - Hide the scrollbar
 - ### Add a search bar right side of the nav bar
+- Restyle genre dropdown with gradient color
+- Margin left and right side of covers so theres space for scroll buttons
+- Shift covers closer to eachother
+- Lower the opacity of every other cover besides the hovered cover
 
 - ~~### Split style.css into different .css files~~
 
