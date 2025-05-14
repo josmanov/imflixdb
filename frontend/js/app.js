@@ -26,7 +26,6 @@ function displayMovies(movies)
 	for (let i = 0; i < movies.length; i++)
 	{
 		let movie = movies[i];
-		// Add HTML for this movie
 		movieHTML += '<div class="column">';
 		movieHTML += '<a href="' + movie.link + '"target="_blank">';
 		movieHTML += '<div class="image-container">';
@@ -46,7 +45,6 @@ function displayShows(shows)
 	for (let i = 0; i < shows.length; i++)
 	{
 		let show = shows[i];
-		// Add HTML for this show
 		showHTML += '<div class="column">';
 		showHTML += '<a href="' + show.link + '"target="_blank">';
 		showHTML += '<div class="image-container">';
