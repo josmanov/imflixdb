@@ -38,7 +38,7 @@
 - ~~Hide the scrollbar~~
 - ### Add a search bar right side of the nav bar
 - ~~Restyle genre dropdown with gradient color~~
-- Add a transition for dropdown
+- ~~Add a transition for dropdown~~
 - ~~Margin left and right side of covers so theres space for scroll buttons~~
 - ~~Shift covers closer to eachother~~
 - ### Lower the opacity of every other cover besides the hovered cover
@@ -49,6 +49,7 @@
 - Make icon become visible when hovering over covers
 - Adjust title and ratings position using width attribute
 - ~~Add a transition to opacity on the scroll button~~
+- Hide Left scroll button until right scroll is pressed and finished
 
 - ### ~~Split style.css into different .css files~~
 
