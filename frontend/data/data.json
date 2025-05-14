@@ -1,0 +1,53 @@
+{
+    "movies": 
+    [
+        {
+            "id": 1,
+            "title": "Harry Potter",
+            "rating": 8.3,
+            "image": "../movie_covers/movie_cover1.jpg",
+            "genre": ["Fantasy", "Adventure"],
+            "year": 2001,
+            "link": ""
+        },
+        {
+            "id": 1,
+            "title": "Harry Potter",
+            "rating": 8.3,
+            "image": "../movie_covers/movie_cover2.jpg",
+            "genre": ["Fantasy", "Adventure"],
+            "year": 2001,
+            "link": ""
+        },
+        {
+            "id": 1,
+            "title": "Harry Potter",
+            "rating": 8.3,
+            "image": "../movie_covers/movie_cover3.jpg",
+            "genre": ["Fantasy", "Adventure"],
+            "year": 2001,
+            "link": ""
+        },
+        {
+            "id": 1,
+            "title": "Harry Potter",
+            "rating": 8.3,
+            "image": "../movie_covers/movie_cover4.jpg",
+            "genre": ["Fantasy", "Adventure"],
+            "year": 2001,
+            "link": ""
+        }
+    ],
+    "shows": 
+    [
+        {
+            "id": 1,
+            "title": "Breaking Bad",
+            "rating": 9.3,
+            "image": "../show_covers/breaking_bad.jpg",
+            "genre": ["Drama", "Adventure"],
+            "year": 2013,
+            "link": "https://breakingbad.com"
+        }
+    ]
+}

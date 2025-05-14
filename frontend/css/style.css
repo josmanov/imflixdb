@@ -1,6 +1,9 @@
 html
 {
     background-image: url("../images/background.jpg");
+    background-size: cover;            /* Make it cover the entire area */
+    background-repeat: no-repeat;      /* Prevent repeating */
+    background-position: center;       /* Center the image */
 }
 
 body, html, .wrapper
@@ -44,7 +47,7 @@ p
     left: 30%;
     display: flex;
     background-color: #000000;
-    font-family: Arial;
+    font-family: 'helvetica';
     justify-content: left;
     align-items: center;
     width: auto;
@@ -70,18 +73,18 @@ p
 }
 .navbar a:hover
 {
-    color: yellow;
+    color: gold;
     transform: scale(1.05);
 }
 
 .dropbtn
 {
-    background-color: #831010;
+    background-color: #db0000;
     color: white;
+    font-family: 'helvetica';
     padding: 16px;
     font-size: 16px;
-    border: none;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .dropbtn:hover, .dropbtn:focus
@@ -259,7 +262,7 @@ a span
 {
     color:#db0000;
 }
-.movie-text
+.movies-text
 {
     display: block;
     font-weight: bold;
@@ -269,7 +272,7 @@ a span
     text-align: left;
 }
 
-.show-text
+.shows-text
 {
     display: block;
     font-weight: bold;

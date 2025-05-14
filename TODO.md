@@ -3,7 +3,7 @@ A website for showcasing ratings of Netflix movies and shows.
 
 ## Backend To do:
 - Search for a netflix api and retreive data of netflix shows and movies.
-- Try and code a way to output the data into frontend.
+- ~~Try and code a way to output the data into frontend.~~
 - app.py with FLASK -> create /catalog endpoint
 - should return JSON   
 
@@ -29,13 +29,14 @@ A website for showcasing ratings of Netflix movies and shows.
 - ~~Create a subtle cover pop and dimming effect when hovering over~~
 - ~~Restyle IMflixDb. Make the IM and DB yellow~~
 - ~~Show movies horizontally only~~
-- Add a horizontal scroll button
+- ### Add a horizontal scroll button instead of mouse scroll wheel
 - ~~add Bold "Movies" text above the movie selection~~
-- Fix
+- Adjust movie cover sizes
+- ### Add a search bar right side of the nav bar
 
 - ### Split style.css into different .css files
 
-- ### Figure out how to add new content from a json data file dynamically
+- ~~### Figure out how to add new content from a json data file dynamically~~
 
 - ### Figure out how to add the website to netflify
 
