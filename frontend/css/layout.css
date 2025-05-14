@@ -16,7 +16,8 @@
 .column
 {
     flex-shrink: 0;
-    margin-right: 5px;
+    margin-right: -55px;
+    margin-left: 33.6px;
 }
 
 .image-container

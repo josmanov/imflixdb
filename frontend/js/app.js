@@ -69,7 +69,7 @@ function scrollLeft()
 
 function scrollRight() 
 {
-	document.getElementById('movies-container').scrollBy({ left: 1400, behavior: 'smooth' });
+	document.getElementById('movies-container').scrollBy({ left: 1372, behavior: 'smooth' });
 	console.log("Does scrollRight Button Work?");
 }
 

@@ -16,9 +16,9 @@ p
 
 .column img
 {
-    width: 240px;
+    width: 200px;
     opacity: 1;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     border-radius: 10px;
     filter: drop-shadow(5px 10px 0px transparent);
@@ -68,7 +68,7 @@ p
 {
     display: block;
     font-weight: bold;
-    padding: 10px 50px 0px;
+    padding: 10px 90px 0px;
     color: white;
     font-size: 3.5rem;
     text-align: left;
@@ -111,13 +111,13 @@ p
 {
     position: absolute;
     margin-left: 10px;  /* some space from the row */
-    transform: translateY(-13.5%);
+    transform: translateY(-16.7%);
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border: none;
     cursor: pointer;
     font-size: 25px;
-    padding: 171px 35px;
+    padding: 134px 22px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index: 5;

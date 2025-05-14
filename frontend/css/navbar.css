@@ -1,7 +1,6 @@
 .navbar
 {
-    padding: 10px 50px 0px;
-    left: 30%;
+    padding: 10px 90px 0px;
     display: flex;
     background-color: #000000;
     font-family: 'helvetica';
@@ -9,8 +8,6 @@
     align-items: center;
     width: auto;
     margin: 0 auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     overflow: visible;
 
 }
