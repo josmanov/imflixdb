@@ -6,10 +6,11 @@
 
 .row
 {
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
     display: flex;
     width: 100%;
     overflow-x: auto;
-    padding: 50px;
+    padding: 0px 50px;
     gap: 5px;
 }
 

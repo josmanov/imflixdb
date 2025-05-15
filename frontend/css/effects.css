@@ -18,7 +18,7 @@
     position: relative;
     z-index: 1;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    filter: drop-shadow(50px 0px 50px #000000a6);
+    filter: drop-shadow(50px 0px 10px #000000a6);
     transition: opacity 0.4s ease, transform 0.4s ease, filter 0.4s ease,
 }
 
@@ -30,8 +30,7 @@
 
 .navbar a:hover
 {
-    color: gold;
-    transform: scale(1.05);
+    color: rgba(255, 255, 255, 0.722);
 }
 
 .dropdown:hover .dropdown-content

@@ -49,8 +49,11 @@
 - ~~Adjust title and ratings position~~
 - ~~Add a transition to opacity on the scroll button~~
 - Hide Left scroll button until right scroll button has finished scrolling
-- Maybe position rating to be on top?
+- ~~Maybe position rating to be on top?~~
     - Also maybe make a imdb info card on top behind cover. As wide as cover. Slightly visible but rating is definately visible. Card will pop up when hovering movie cover
+- when scrolling with touchpad, it will engange the direction to scroll to.
+- If scrolling is in progress restrict the scroll button or touchpad scrolling
+- Remove movie title underline
 
 - ### ~~Split style.css into different .css files~~
 

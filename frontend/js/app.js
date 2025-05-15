@@ -27,17 +27,23 @@ function displayMovies(movies)
 	{
 		let movie = movies[i];
 		movieHTML += '<div class="column">';
-		movieHTML += '<a href="' + movie.link + '"target="_blank">';
 		movieHTML += '<div class="image-container">';
-		movieHTML += '<img src="' + movie.image + '" alt="' + movie.title + '">';
-		movieHTML += '<div class="rating">' + movie.rating + '</div>';
+		// Info card with rating inline using span, no separate rating div
+		movieHTML += '<div class="movie-info-card">';
+		movieHTML += '<p><strong>IMDb:</strong> <span class="rating">' + movie.rating + '</span></p>';
+		movieHTML += '<p><strong>Genre:</strong> ' + movie.genre + '</p>';
+		movieHTML += '<p><strong>Year:</strong> ' + movie.year + '</p>';
 		movieHTML += '</div>';
-		movieHTML += '<p class="movie-title">' + movie.title + '</p>';
+		movieHTML += '<a href="' + movie.link + '" target="_blank">';
+		movieHTML += '<img src="' + movie.image + '" alt="' + movie.title + '">';
 		movieHTML += '</a>';
+		movieHTML += '</div>';
+		movieHTML += '<h2 class="movie-title">' + movie.title + '</h2>';
 		movieHTML += '</div>';
 	}
 	document.getElementById("movies-container").innerHTML = movieHTML;
 }
+
 
 function displayShows(shows)
 {
@@ -51,7 +57,7 @@ function displayShows(shows)
 		showHTML += '<img src="' + show.image + '" alt="' + show.title + '">';
 		showHTML += '<div class="rating">' + show.rating + '</div>';
 		showHTML += '</div>';
-		showHTML += '<p class="movie-title">' + show.title + '</p>';
+		showHTML += '<h2 class="movie-title">' + show.title + '</h2>';
 		showHTML += '</a>';
 		showHTML += '</div>';
 	}
@@ -60,13 +66,13 @@ function displayShows(shows)
 
 function scrollBtnRight(containerId) 
 {
-	document.getElementById(containerId).scrollBy({ left: 1372, behavior: 'smooth' });
+	document.getElementById(containerId).scrollBy({ left: 1374, behavior: 'smooth' });
 	console.log("Does scrollRight Button Work?");
 }
 
 function scrollBtnLeft(containerId) 
 {
-	document.getElementById(containerId).scrollBy({ left: -1372, behavior: 'smooth' });
+	document.getElementById(containerId).scrollBy({ left: -1374, behavior: 'smooth' });
 	console.log("Does scrollLeft Button Work?");
 }
 
