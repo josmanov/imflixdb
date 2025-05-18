@@ -17,9 +17,8 @@
     transform-origin: center center;
     position: relative;
     z-index: 1;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    filter: drop-shadow(50px 0px 10px #000000a6);
-    transition: opacity 0.4s ease, transform 0.4s ease, filter 0.4s ease,
+    box-shadow: 50px 0px 50px #000000a6;
+    transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease,
 }
 
 .column img.dimmed

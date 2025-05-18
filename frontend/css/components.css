@@ -16,12 +16,13 @@ p
 
 .column img
 {
-    width: 200px;
-    height: 300px;
+
+    width: 45vw;
+    max-width: 200px;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
-    filter: drop-shadow(5px 10px 0px transparent);
-    transition: opacity 0.6s ease, transform 0.6s ease, filter 0.6s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
     display: block;
 }
 
@@ -62,21 +63,12 @@ p
 {
     color:#db0000;
 }
-.movies-text
-{
-    display: block;
-    font-weight: bold;
-    padding: 10px 90px 0px;
-    color: white;
-    font-size: 3.5rem;
-    text-align: left;
-}
-
+.movies-text,
 .shows-text
 {
     display: block;
     font-weight: bold;
-    padding: 10px 50px 0px;
+    padding: 10px 90px 0px;
     color: white;
     font-size: 3.5rem;
     text-align: left;
@@ -107,10 +99,10 @@ p
     scroll-behavior: smooth;
 }
 
-.scroll-btn
+.scroll-btn,
+.scroll-btn-left
 {
     position: absolute;
-    margin-left: 0px;  /* some space from the row */
     transform: translateY(8%);
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
@@ -121,41 +113,28 @@ p
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index: 5;
-    height: auto;  /* Let it size naturally */
     display: flex;
     align-items: center;
-    justify-content: center;
-    right: 0%;
     transition: background-color 0.3s ease;
 }
 
-.scroll-btn-left
+.scroll-btn 
 {
-    position: absolute;
-    margin-left: 0px;  /* some space from the row */
-    transform: translateY(8%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 136px 20px;
-    font-size: 25px;
+    right: 0%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.scroll-btn-left 
+{
+    left: 0%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    z-index: 5;
-    height: auto;  /* Let it size naturally */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 0%;
-    transition: background-color 0.3s ease;
 }
 
-.scroll-btn:hover
-{
-    background-color: rgba(0, 0, 0, 0.9);
-    transition: background-color 0.3s ease;
-}
+.scroll-btn:hover,
 .scroll-btn-left:hover
 {
     background-color: rgba(0, 0, 0, 0.9);

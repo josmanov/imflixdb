@@ -45,18 +45,23 @@
 - ~~add scrollLeft button to index.html and css~~
 - ~~Adjust size of scroll button~~
 - ~~Change icon of scroll button~~
-- Make icon become visible when hovering over covers
+- Hide icon and make icon become visible when hovering over covers
 - ~~Adjust title and ratings position~~
 - ~~Add a transition to opacity on the scroll button~~
 - Hide Left scroll button until right scroll button has finished scrolling
 - ~~Maybe position rating to be on top?~~
-    - Also maybe make a imdb info card on top behind cover. As wide as cover. Slightly visible but rating is definately visible. Card will pop up when hovering movie cover
-- when scrolling with touchpad, it will engange the direction to scroll to.
+    - ~~Also maybe make a imdb info card on top~~
+- when scrolling with touchpad, it will engange towards the direction as the button.
 - If scrolling is in progress restrict the scroll button or touchpad scrolling
-- Remove movie title underline
+- ~~Remove movie title underline~~
+- ~~Cleanup css files~~
+- Add tomato & imdb together with genre and year
+    - When rating button clicked, go to that movie in the specific rating site
 
 - ### ~~Split style.css into different .css files~~
 
 - ### ~~Figure out how to add new content from a json data file dynamically~~
 
 - ### Figure out how to add the website to netflify
+
+- ### Make site mobile friendly

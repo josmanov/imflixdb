@@ -1,4 +1,4 @@
-btml, body
+html, body
 {
     height: 100%;
     margin: 0;
@@ -15,10 +15,9 @@ html
 
 body, html, .wrapper
 {
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
     width: 100%;
-    max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
 }
