@@ -1,10 +1,10 @@
 
-.image-container:hover .rating
+.image_container:hover .rating
 {
     transform: translateX(-50%) scale(1.1);
 }
 
-.image-container:hover ~ .movie-title
+.image_container:hover ~ .movie_title
 {
     transform: scale(1.05);
     color: gold;
@@ -32,7 +32,7 @@
     color: rgba(255, 255, 255, 0.722);
 }
 
-.dropdown:hover .dropdown-content
+.dropdown:hover .dropdown_content
 {
     display: block;
     background-color: #460c0c;
@@ -51,12 +51,12 @@ a span
   color: yellow; /* Apply yellow to <span> text */
 }
 
-#myInput:focus
+#my_input:focus
 {
     outline: 1px white;
 }
 
-#movies-container::-webkit-scrollbar 
+#movies_container::-webkit-scrollbar 
 {
     width: 0px;
     width: 0px;

@@ -26,7 +26,7 @@ p
     display: block;
 }
 
-.movie-title
+.movie_title
 {
     color: white;
     text-align: center;
@@ -54,7 +54,7 @@ p
     z-index: 2;
 }
 
-.yellow-text
+.yellow_text
 {
     color: #deb522;
 }
@@ -63,8 +63,8 @@ p
 {
     color:#db0000;
 }
-.movies-text,
-.shows-text
+.movies_text,
+.shows_text
 {
     display: block;
     font-weight: bold;
@@ -74,7 +74,7 @@ p
     text-align: left;
 }
 
-.site-title
+.site_title
 {
     font-size: 30px !important;
     font-weight: bold;
@@ -82,7 +82,7 @@ p
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000, 1px 1px 0 #000000;
 }
 
-.scroll-section
+.scroll_section
 {
     position: relative;
     display: flex;
@@ -91,7 +91,7 @@ p
     width: 100%;
 }
 
-#movies-container
+#movies_container
 {
     flex: 1;
     display: flex;
@@ -99,8 +99,8 @@ p
     scroll-behavior: smooth;
 }
 
-.scroll-btn,
-.scroll-btn-left
+.scroll_btn,
+.scroll_btn-left
 {
     position: absolute;
     transform: translateY(8%);
@@ -118,7 +118,7 @@ p
     transition: background-color 0.3s ease;
 }
 
-.scroll-btn 
+.scroll_btn 
 {
     right: 0%;
     border-top-left-radius: 10px;
@@ -127,15 +127,15 @@ p
     padding-right: 22px;
 }
 
-.scroll-btn-left 
+.scroll_btn_left 
 {
     left: 0%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.scroll-btn:hover,
-.scroll-btn-left:hover
+.scroll_btn:hover,
+.scroll_btn_left:hover
 {
     background-color: rgba(0, 0, 0, 0.9);
     transition: background-color 0.3s ease;

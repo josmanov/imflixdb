@@ -26,7 +26,7 @@
         border-right: none;
     }
 
-    #myInput
+    #my_input
     {
         box-sizing: border-box;
         background-image: url('../images/searchicon.png');
@@ -51,7 +51,7 @@
         display: inline-block;
     }
 
-  .dropdown-content 
+  .dropdown_content 
   {
     visibility: hidden;
     opacity: 0;
@@ -66,14 +66,14 @@
     pointer-events: none;
     }
 
-    .dropdown:hover .dropdown-content 
+    .dropdown:hover .dropdown_content 
     {
         visibility: visible;
         opacity: 1;
         pointer-events: auto;
     }
 
-    .dropdown-content a
+    .dropdown_content a
     {
         display: block;
         padding: 12px;

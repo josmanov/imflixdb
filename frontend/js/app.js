@@ -1,16 +1,15 @@
-function loadMedia()
+function load_media()
 {
-	console.log("Error checkpoint 1")
 	fetch('../data/data.json')
 	.then(function(response)
 	{
 		return response.json();
 	}
 	)
-	.then(function(mediaData)
+	.then(function(media_data)
 	{
-		displayMovies(mediaData.movies);
-		displayShows(mediaData.shows);
+		display_movies(media_data.movies);
+		display_shows(media_data.shows);
 	}
 	)
 	.catch(function(error)
@@ -20,60 +19,62 @@ function loadMedia()
 	);
 }
 
-function displayMovies(movies)
+function display_movies(movies)
 {
-	let movieHTML = '';
+	let movie_html = '';
 	for (let i = 0; i < movies.length; i++)
 	{
-		let movie = movies[i];
-		movieHTML += '<div class="column">';
-		movieHTML += '<div class="image-container">';
+		const movie_list = movies[i];
+		movie_html += '<div class="column">';
+		movie_html += '<div class="image_container">';
 		// Info card with rating inline using span, no separate rating div
-		movieHTML += '<div class="movie-info-card">';
-		movieHTML += '<p><strong>IMDb:</strong> <span class="rating">' + movie.rating + '</span></p>';
-		movieHTML += '<p><strong>Genre:</strong> ' + movie.genre + '</p>';
-		movieHTML += '<p><strong>Year:</strong> ' + movie.year + '</p>';
-		movieHTML += '</div>';
-		movieHTML += '<a href="' + movie.link + '" target="_blank">';
-		movieHTML += '<img src="' + movie.image + '" alt="' + movie.title + '">';
-		movieHTML += '</a>';
-		movieHTML += '</div>';
-		movieHTML += '<h2 class="movie-title">' + movie.title + '</h2>';
-		movieHTML += '</div>';
+		movie_html += '<div class="movie_info_card">';
+		movie_html += '<p><strong>IMDb:</strong> <span class="rating">' + movie_list.rating + '</span></p>';
+		movie_html += '<p><strong>Genre:</strong> ' + movie_list.genre + '</p>';
+		movie_html += '<p><strong>Year:</strong> ' + movie_list.year + '</p>';
+		movie_html += '</div>';
+		movie_html += '<a href="' + movie_list.link + '" target="_blank">';
+		movie_html += '<img src="' + movie_list.image + '" alt="' + movie_list.title + '">';
+		movie_html += '</a>';
+		movie_html += '</div>';
+		movie_html += '<h2 class="movie_title">' + movie_list.title + '</h2>';
+		movie_html += '</div>';
 	}
-	document.getElementById("movies-container").innerHTML = movieHTML;
+	const movies_container = document.getElementById("movies_container");
+	movies_container.innerHTML = movie_html;
 }
 
-
-function displayShows(shows)
+function display_shows(shows)
 {
-	let showHTML = '';
+	let show_html = '';
 	for (let i = 0; i < shows.length; i++)
 	{
-		let show = shows[i];
-		showHTML += '<div class="column">';
-		showHTML += '<a href="' + show.link + '"target="_blank">';
-		showHTML += '<div class="image-container">';
-		showHTML += '<img src="' + show.image + '" alt="' + show.title + '">';
-		showHTML += '<div class="rating">' + show.rating + '</div>';
-		showHTML += '</div>';
-		showHTML += '<h2 class="movie-title">' + show.title + '</h2>';
-		showHTML += '</a>';
-		showHTML += '</div>';
+		const show_list = shows[i];
+		show_html += '<div class="column">';
+		show_html += '<a href="' + show_list.link + '" target="_blank">';
+		show_html += '<div class="image_container">';
+		show_html += '<img src="' + show_list.image + '" alt="' + show_list.title + '">';
+		show_html += '<div class="rating">' + show_list.rating + '</div>';
+		show_html += '</div>';
+		show_html += '<h2 class="movie_title">' + show_list.title + '</h2>';
+		show_html += '</a>';
+		show_html += '</div>';
 	}
-	document.getElementById("shows-container").innerHTML = showHTML;
+	document.getElementById("shows_container").innerHTML = show_html;
 }
 
-function scrollBtnRight(containerId) 
+function scroll_btn_right(container_id) 
 {
-	document.getElementById(containerId).scrollBy({ left: 1374, behavior: 'smooth' });
-	console.log("Does scrollRight Button Work?");
+	const scroll_amount = 1374;
+	document.getElementById(container_id).scrollBy({ left: scroll_amount, behavior: 'smooth' });
+	console.log("Does scroll_right Button Work?");
 }
 
-function scrollBtnLeft(containerId) 
+function scroll_btn_left(container_id) 
 {
-	document.getElementById(containerId).scrollBy({ left: -1374, behavior: 'smooth' });
-	console.log("Does scrollLeft Button Work?");
+	const scroll_amount = -1374;
+	document.getElementById(container_id).scrollBy({ left: scroll_amount, behavior: 'smooth' });
+	console.log("Does scroll_left Button Work?");
 }
 
-window.onload = loadMedia;
+window.onload = load_media;

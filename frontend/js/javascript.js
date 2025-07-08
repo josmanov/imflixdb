@@ -1,24 +1,19 @@
-function myFunction()
+function filter_function()
 {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function filterFunction()
-{
-    const input = document.getElementById("myInput");
-    const filter = input.value.toUpperCase();
-    const div = document.getElementById("myDropdown");
-    const a = div.getElementsByTagName("a");
-    for (let i = 0; i < a.length; i++)
+    const search_input = document.getElementById("my_input");
+    const search_word = search_input.value.toUpperCase();
+    const dropdown_menu = document.getElementById("my_dropdown");
+    const genre_links = dropdown_menu.getElementsByTagName("a");
+    for (let i = 0; i < genre_links.length; i++)
     {
-        txtValue = a[i].textContent || a[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1)
+        let genre_text = genre_links[i].textContent || genre_links[i].innerText;
+        if (genre_text.toUpperCase().indexOf(search_word) > -1)
         {
-            a[i].style.display = "";
+            genre_links[i].style.display = "";
         }
         else
         {
-            a[i].style.display = "none";
+            genre_links[i].style.display = "none";
         }
     }
 }
